@@ -1,0 +1,16 @@
+PODS:
+  - Songs (0.1.0)
+
+DEPENDENCIES:
+  - Songs (from `../`)
+
+EXTERNAL SOURCES:
+  Songs:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Songs: a785e6e371463a01ea03529e78666af37a170757
+
+PODFILE CHECKSUM: cad4d3ee6fff99257b91315b0edf379eaff22161
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,22 @@
+{
+  "name": "Songs",
+  "version": "0.1.0",
+  "summary": "A short description of Songs.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ruanvictorreis/Songs",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ruanvictorreis": "ruanvictorreis@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/ruanvictorreis/Songs.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Songs/Classes/**/*"
+}
