@@ -1,9 +1,9 @@
 {
   "name": "Songs",
-  "version": "0.1.0",
-  "summary": "A short description of Songs.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ruanvictorreis/Songs",
+  "version": "1.0.0",
+  "summary": "The Songs module",
+  "description": "This is the Song module that can be used in modular architecture.",
+  "homepage": "https://github.com/ruanvictorreis/modular-architecture-songs",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,18 @@
     "ruanvictorreis": "ruanvictorreis@gmail.com"
   },
   "source": {
-    "git": "https://github.com/ruanvictorreis/Songs.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/ruanvictorreis/modular-architecture-songs.git",
+    "tag": "1.0.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
-  "source_files": "Songs/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Cocoapod/Songs/Classes/**/*",
+  "dependencies": {
+    "R.swift": [
+      "~> 5.2.2"
+    ]
+  },
+  "swift_version": "5.0"
 }

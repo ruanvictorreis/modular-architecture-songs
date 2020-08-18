@@ -31,7 +31,7 @@ This is the Song module that can be used in modular architecture.
   s.ios.deployment_target = '11.0'
   s.swift_versions = '5.0'
 
-  s.source_files = 'Songs/Classes/**/*'
+  s.source_files = 'Cocoapod/Songs/Classes/**/*'
   
   # s.resource_bundles = {
   #   'Songs' => ['Songs/Assets/*.png']
@@ -39,5 +39,5 @@ This is the Song module that can be used in modular architecture.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'R.swift', '~> 5.2.2'
 end

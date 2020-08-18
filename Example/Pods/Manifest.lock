@@ -1,16 +1,28 @@
 PODS:
-  - Songs (0.1.0)
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - Songs (1.0.0):
+    - R.swift (~> 5.2.2)
 
 DEPENDENCIES:
+  - R.swift (~> 5.2.2)
   - Songs (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - R.swift
+    - R.swift.Library
 
 EXTERNAL SOURCES:
   Songs:
     :path: "../"
 
 SPEC CHECKSUMS:
-  Songs: a785e6e371463a01ea03529e78666af37a170757
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  Songs: 266bb0b5b391667814cd419954d05176d44e833e
 
-PODFILE CHECKSUM: cad4d3ee6fff99257b91315b0edf379eaff22161
+PODFILE CHECKSUM: 68d1555330c160570f9d95860dd5cdd851e6197d
 
 COCOAPODS: 1.9.3

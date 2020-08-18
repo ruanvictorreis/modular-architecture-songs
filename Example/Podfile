@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'Songs_Example' do
   pod 'Songs', :path => '../'
+  pod 'R.swift', '~> 5.2.2'
 
   target 'Songs_Tests' do
     inherit! :search_paths
