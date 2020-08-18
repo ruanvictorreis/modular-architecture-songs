@@ -2,7 +2,7 @@ PODS:
   - R.swift (5.2.2):
     - R.swift.Library (~> 5.2.0)
   - R.swift.Library (5.2.0)
-  - Songs (1.0.0):
+  - Songs (1.0.1):
     - R.swift (~> 5.2.2)
 
 DEPENDENCIES:
@@ -21,7 +21,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
   R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
-  Songs: 266bb0b5b391667814cd419954d05176d44e833e
+  Songs: 05f8f5a19ffc56dc650cccc252e1dcebc6153167
 
 PODFILE CHECKSUM: 68d1555330c160570f9d95860dd5cdd851e6197d
 
